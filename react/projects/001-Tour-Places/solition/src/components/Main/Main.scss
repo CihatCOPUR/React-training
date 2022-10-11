@@ -1,0 +1,20 @@
+@import "../../scss/variables.scss";
+
+.card-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+img{
+    width: 500px;
+    height: 350px;
+}
+
+.card-over{
+    width: 500px;
+}
+
+.cards{
+    background-color: $cardNavBgColor;
+}
