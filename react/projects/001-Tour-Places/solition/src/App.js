@@ -1,6 +1,7 @@
 
 import "./App.scss";
 import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
 import Navbar from "./components/Navbar/Navbar";
 
 const App =()=>{
@@ -8,7 +9,7 @@ const App =()=>{
     <div className="App">
       <Navbar/>
       <Header/>
-     
+      <Main/>
     </div>
   )
 }
