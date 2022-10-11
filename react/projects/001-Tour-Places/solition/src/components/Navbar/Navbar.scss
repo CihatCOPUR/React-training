@@ -1,4 +1,4 @@
-@import "../../scss/variables";
+@import "../../scss/variables","../../scss/mixins";
 
 .navbar{
     background-color: $cardNavBgColor;
@@ -18,3 +18,16 @@
         }
     }
 }
+
+@include media-xsm {
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@include media-sm{
+    .navbar{
+        flex-direction: row;
+    }
+} 
