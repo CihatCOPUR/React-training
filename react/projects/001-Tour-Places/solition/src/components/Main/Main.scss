@@ -4,17 +4,46 @@
 display: flex;
 flex-wrap: wrap;
 justify-content: space-evenly;
-}
+
 
 img{
     width: 500px;
     height: 350px;
+    object-fit: cover;
+    filter: grayscale(0);
+&:hover{
+    filter: grayscale(100%)
+}
 }
 
+
 .card-over{
-    width: 500px;
+    
+    color: white;
+    font-size: 1.1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    padding: 1rem;
+
+
 }
 
 .cards{
     background-color: $cardNavBgColor;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.title{
+    color:$backgroundColor;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+
 }
